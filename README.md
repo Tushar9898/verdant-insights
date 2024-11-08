@@ -53,5 +53,5 @@ Access the project here: https://verdant-insights.netlify.app/
 - **Expanded Commodity List**: Add more commodities to address broader user needs.
 
 
-Regards,
-### Verdant Visionaries
+### Regards,
+Verdant Visionaries

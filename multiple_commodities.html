@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Commodities</title>
+    <link rel="stylesheet" href="multiple_style.css">
+
+    <style>
+
+        body {
+            background-image: url('home-and-all.jpg'), linear-gradient(to right, #e0f7df, #ffffff);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #2f4f2f;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #28a745;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(40, 167, 69, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        section {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 25px;
+            background: #f9f9f9;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        h2 {
+            color: #2f4f2f;
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 3px rgba(47, 79, 47, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #e8f5e9;
+            margin: 12px 0;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 5px solid #28a745;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        li:hover {
+            transform: translateY(-10px);
+            background: #d4edda;
+            box-shadow: 0 8px 16px rgba(40, 167, 69, 0.3);
+        }
+
+        li img {
+            width: 60px;
+            height: 60px;
+            margin-right: 15px;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        li strong {
+            color: #218838;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 25px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(40, 167, 69, 0.4);
+        }
+
+        #darkModeToggle {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #28a745;
+            transition: color 0.3s ease;
+        }
+
+        #darkModeToggle:hover {
+            color: #218838;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h2>Information on Various Commodities</h2>
+    <p>Explore the brief descriptions of the commodities we cover below:</p>
+
+    <ul>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Gram+Dal" alt="Gram Dal">
+            <strong>Gram Dal:</strong> A staple pulse, high in protein and used in various dishes.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Sugar" alt="Sugar">
+            <strong>Sugar:</strong> A sweetener derived from sugarcane or sugar beet, used in cooking and baking.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Rice" alt="Rice">
+            <strong>Rice:</strong> A primary staple food for over half of the world's population, consumed in various forms.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Wheat" alt="Wheat">
+            <strong>Wheat:</strong> A cereal grain used to make flour for bread, pasta, and many other foods.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Atta" alt="Atta">
+            <strong>Atta:</strong> Whole wheat flour, commonly used in Indian cooking for making flatbreads.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Tur" alt="Tur Dal">
+            <strong>Tur/Arhar Dal:</strong> Yellow split pigeon peas, commonly used in soups and curries.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Urad" alt="Urad Dal">
+            <strong>Urad Dal:</strong> Black gram lentils, rich in protein and often used in South Indian dishes.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Moong" alt="Moong Dal">
+            <strong>Moong Dal:</strong> Green gram lentils, known for their high protein content and easy digestibility.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Masoor" alt="Masoor Dal">
+            <strong>Masoor Dal:</strong> Red lentils, quick to cook and often used in soups and stews.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Gur" alt="Gur">
+            <strong>Gur:</strong> Jaggery, a traditional unrefined sugar made from sugarcane or palm sap.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Groundnut+Oil" alt="Groundnut Oil">
+            <strong>Groundnut Oil:</strong> Oil extracted from peanuts, used for frying and cooking.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Mustard+Oil" alt="Mustard Oil">
+            <strong>Mustard Oil:</strong> An oil made from mustard seeds, popular in Indian cuisine.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Vanaspati" alt="Vanaspati">
+            <strong>Vanaspati:</strong> A hydrogenated fat used in cooking and baking.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Sunflower+Oil" alt="Sunflower Oil">
+            <strong>Sunflower Oil:</strong> A healthy oil extracted from sunflower seeds, commonly used in frying and salads.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Soya+Oil" alt="Soya Oil">
+            <strong>Soya Oil:</strong> Extracted from soybeans, widely used in food production.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Palm+Oil" alt="Palm Oil">
+            <strong>Palm Oil:</strong> A versatile oil used in cooking, food production, and non-food items.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Tea" alt="Tea">
+            <strong>Tea:</strong> A popular beverage derived from the leaves of the Camellia sinensis plant.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Milk" alt="Milk">
+            <strong>Milk:</strong> A nutritious liquid produced by mammals, consumed as a beverage and used in cooking.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Salt" alt="Salt">
+            <strong>Salt:</strong> A mineral essential for human health and food preservation.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Potato" alt="Potato">
+            <strong>Potato:</strong> A starchy tuber, versatile in cooking and a staple food in many diets.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Onion" alt="Onion">
+            <strong>Onion:</strong> A common vegetable used for flavoring in a variety of dishes.
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Tomato" alt="Tomato">
+            <strong>Tomato:</strong> A juicy fruit commonly used in salads, sauces, and cooking.
+        </li>
+    </ul>
+
+    <button type="button" class="btn" onclick="window.location.href='predictor.html'">Back to Home</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

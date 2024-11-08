@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('home-and-all.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9);
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#darkModeToggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #ff000d;
+}
+
+section p {
+    color: #555;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    background-color: rgba(76, 175, 80, 0.9);
+    color: white;
+}
+
+.feature-box h3 {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transform: translateY(-5px);
+}
+
+/* Image section styling */
+.crop-image {
+    width: 100%;
+    height: 300px;
+    object-fit: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* FAQ Section */
+.faq {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.faq h2 {
+    color: black; /* FAQ section heading in black */
+    font-weight: bold; /* Make heading bold */
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-item h4 {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s;
+    color: black; /* FAQ question text in black */
+    font-weight: bold; /* Make FAQ questions bold */
+}
+
+.faq-item h4:hover {
+    background-color: #eaeaea;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    margin: 0;
+    color: black; /* FAQ answer text in black */
+    font-weight: normal; /* Regular font weight for answers */
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #333;
+    color: #ccc;
+}
+
+.dark-mode p{
+    color:white
+}
+
+.dark-mode.faq-item{
+    background-color: #000;
+    color: white;
+}
+
+.dark-mode.faq-item h4{
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode section {
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.dark-mode .feature-box {
+    background-color: rgba(70, 70, 70, 0.9);
+    border-color: #fff;
+}
+
+/* Loading spinner */
+#loadingSpinner {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #4CAF50;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}

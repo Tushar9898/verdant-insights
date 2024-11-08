@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Price Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+    <h2>Predict Future Prices of Agricultural Commodities</h2>
+    <p>Welcome to our agriculture price prediction website. We provide accurate forecasts for the prices of various agricultural commodities, helping farmers and businesses plan ahead.</p>
+
+    <img src="price-high-image.jpeg" class="crop-image">
+
+    <div class="features">
+        <div class="feature-box" onclick="window.location.href='Accurate.html'">
+            <h3>Accurate Predictions</h3>
+            <p>Using advanced models, we predict commodity prices for future months with high accuracy.</p>
+        </div>
+        <div class="feature-box" onclick="window.location.href='multiple_commodities.html'">
+            <h3>Multiple Commodities</h3>
+            <p>We provide predictions for a variety of crops like wheat, sugar, rice, and more.</p>
+        </div>
+        <div class="feature-box" onclick="window.location.href='buffer_stock_management.html'">
+            <h3>Buffer Stock Management</h3>
+            <p>Our predictions help in effective buffer stock management, ensuring that supplies meet demand during critical periods.</p>
+        </div>
+        <div class="feature-box" onclick="window.location.href='easy_to_use.html'">
+            <h3>Easy to Use</h3>
+            <p>Get predictions with a click of a button. Just visit the app and enter the required details.</p>
+        </div>
+    </div>
+
+    <button type="button" class="btn" onclick="window.location.href='https://crop-price-prediction-model.streamlit.app/'">Get Prediction</button>
+
+    <!-- FAQ Section -->
+    <div class="faq">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq-item">
+            <h4 onclick="toggleFAQ(this)">What data is used for predictions?</h4>
+            <p class="faq-answer">We use historical data, market trends, and machine learning algorithms to make predictions about future commodity prices.</p>
+        </div>
+        <div class="faq-item">
+            <h4 onclick="toggleFAQ(this)">How accurate are the predictions?</h4>
+            <p class="faq-answer">Our models are fine-tuned to provide highly accurate results, though real-world factors such as weather and market fluctuations can cause variations.</p>
+        </div>
+        <div class="faq-item">
+            <h4 onclick="toggleFAQ(this)">How do I access the prediction tool?</h4>
+            <p class="faq-answer">You can access the prediction tool by clicking the "Go to Prediction App" button above, where you can enter your details to get predictions.</p>
+        </div>
+        <div class="faq-item">
+            <h4 onclick="toggleFAQ(this)">Is there a cost to use the prediction tool?</h4>
+            <p class="faq-answer">The prediction tool is free to use for all registered users. Sign up now to start accessing predictions!</p>
+        </div>
+        <div class="faq-item">
+            <h4 onclick="toggleFAQ(this)">Can I trust the predictions?</h4>
+            <p class="faq-answer">While we strive for high accuracy, predictions are subject to change due to external factors. We recommend using them as a guide rather than absolute values.</p>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

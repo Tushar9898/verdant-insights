@@ -1,0 +1,65 @@
+body {
+    background-image: url('home-and-all.jpg'), linear-gradient(to right, #e0f7df, #ffffff);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #2f4f2f;
+}
+
+header {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.steps-container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.step-box {
+    background-color: #fff; /* White background for boxes */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.step-box:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.step-box h2 {
+    color: #4CAF50; /* Green color for headings */
+    margin-bottom: 10px;
+}
+
+.step-box p {
+    color: #666;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
